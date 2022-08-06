@@ -1,0 +1,83 @@
+.section1 {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg");
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+  }
+.buttens {
+    display: flex; justify-content: center;
+    justify-content: space-around;
+    background-color: rgba(191, 119, 19, 0.501);
+    width: 100vw;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.section1left {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 35vw;
+    height: 95%;
+    text-align: center;
+}
+
+.welcome {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.order{
+    font-family:cursive
+}
+
+.nenu{
+    flex-wrap: wrap;
+}
+
+#menu {
+    margin-bottom: 0%;
+}
+
+#section2{
+    padding-left: 0%;
+    margin-bottom: 0%;
+    
+}
+.container {
+    border: 1px solid #DDDDDD;
+    position: relative;
+    float: right;
+  }
+ 
+  .tag {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    background-color: #92AD40;
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+
+    .section3 {
+        background-color: rgba(139, 97, 38, 0.354);
+        width: 100vw;
+        height: 47vw;
+        text-align: center;
+        font-family:cursive;
+    }
+
+    .section4 {
+        background-color: rgba(120, 103, 78, 0.354);
+        width: 100vw;
+        height: 47vw;
+        font-family:cursive ;
+        padding-left: 5px;
+    }
+
+    .name {
+     background-color: rgba(154, 176, 99, 0.179);
+    }
