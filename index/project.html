@@ -9,43 +9,48 @@
 </head>
 <body>
 
-    
-<div class="section1">
+  <div class="homeb"><a href="#home">home</a></div>
+
+<div class="section1" id="home">
 
 <div class="section1left">
 
+  <div class="buttens2">
     <div class="buttens">
 
-        <div class="buttens"><a href="#section1" class="button">home</a></div>
-        <div class="buttens"><a href="#section2" class="button">menu</a></div>
-        <div class="buttens"><a href="#section3" class="button">FAQ</a></div>
-        <div class="buttens"><a href="#section4" class="button">contact</a></div>
-    
-    </div>
-    
-    <div class="section1left">
+        <span><a href="#section1" class="button">home</a></span>
+        <span><a href="#section2" class="button">menu</a></span>
+        <span><a href="#section3" class="button">FAQ</a></span>
+        <span><a href="#section4" class="button">contact</a></span>
 
-<div class="welcome"><h1 style="margin-left: 30px;">welcome to my<br> resturant</h1></div><br>
+</div>
+      
+    </div>
+
+    <div class="section1left">
+      
+      <div class="welcome"><h1 style="margin-left: 30px;">welcome to my<br> resturant</h1></div><br>
 
 <div class="order"><p>order delicios food onlin1 100% quality</p></div><br>
 
 <div><h3>call 99999999 for reservtions</h3></div>
 
-<div><input type="button" value="order now" class="yellow"></div>
+<div><input type="button" value="order now" class="yellow" id="on"></div>
 
+</div>
 </div>
 </div>
 
 
 <div class="section2">
-
-<h1 id="section2">menu:</h1>
-
+  
+  <h1 id="section2">menu:</h1>
+  
 <div class="menu">
 
   <div class="container">
     <div class="tag">Gluten</div>
-<img src="https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706__480.jpg" width="400px" height="263px"  alt=""></a>
+<img src="https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706__480.jpg" width="400px" height="263px" id="img1" alt=""></a>
 </div>
 
 <div class="container">
@@ -89,11 +94,8 @@
 
 </div>
 
-<br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
+<div class="height"></div>
+
 </div>
 </div>
 
@@ -102,7 +104,7 @@
 
     <h1 id="section3">about our resturant:</h1>
     <h3>
-        Sed ut perspiciatis, unde omnis iste natus error sit <br>
+       <br><br> Sed ut perspiciatis, unde omnis iste natus error sit <br>
         voluptatem accusantium doloremque <br> laudantium, totam
         rem aperiam eaque <br> ipsa, quae ab illo inventore veritatis 
         et quasi architecto beatae vitae dicta sunt, explicabo. <br>
@@ -137,15 +139,26 @@
 
   <h1 id="section4">contact us:</h1>
 
-        <h4>full name:</h4>
-        <input type="text" name="Name" placeholder="full name" class="name"> 
-        
+  <h4>full name:</h4>
+      <style class="extend">
+          input[type=text] {
+            width: 165px;
+            -webkit-transition: width .35s ease-in-out;
+            transition: width .35s ease-in-out;
+          }
+          input[type=text]:focus {
+            width: 250px;
+          }
+        </style>
+          
+         <input type="text" name="your-name">
+
         <h4>email:</h4>
         <input type="email" name="mail" placeholder="Example@gmail.com" class="name" >
   
         <h4>reason of contact:</h4>
 
-        <textarea name="reason" placeholder="shere whith us" style="height: 100px;px" class="name"></textarea><br>
+        <textarea name="reason" placeholder="shere whith us" style="height: 100px;" class="name"></textarea><br>
   
         <h4>reason of contact:</h4>
         <select class="name">
@@ -157,7 +170,8 @@
       
         <h4>terms of service:</h4>
         <input type="checkbox" class="name"> <label for="agree">agree</label>
-<div>
+          
+<div class="submit">
         <input type="submit" value="submit">
 </div>
 

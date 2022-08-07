@@ -1,83 +1,174 @@
 .section1 {
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg");
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-  }
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg");
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  z-index: 50;
+  position: relative;
+  margin-bottom: 0%;
+}
 .buttens {
-    display: flex; justify-content: center;
-    justify-content: space-around;
-    background-color: rgba(191, 119, 19, 0.501);
-    width: 100vw;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  border-radius: 6px;
+  position: relative;
+  padding: 0%;
+  margin: 0%;
 }
 
-.yellow {
+span {
+  margin-left: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: rgba(63, 229, 51, 0.71);
+  border-radius: 6px;
+  font-family: cursive;
+  text-decoration: none;
+  border: rgb(38, 129, 58) solid;
+}
+
+.yellow{
     background-color: yellow;
+    border-radius: 6px;
+    
+}
+.yellow:hover {
+  background-color: rgb(19, 147, 38);color: rgb(0, 0, 7);
+  border-radius: 6px;
 }
 
 .section1left {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.445);
-    width: 35vw;
-    height: 95%;
-    text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.445);
+  width: 35vw;
+  height: 95%;
+  text-align: center;
+  min-width: min-content;
 }
 
 .welcome {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.order{
-    font-family:cursive
+.order {
+  font-family: cursive;
 }
 
-.nenu{
-    flex-wrap: wrap;
+.nenu {
+  flex-wrap: wrap;
+  margin-top: 0%;
 }
 
 #menu {
-    margin-bottom: 0%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  padding-top: 0%;
 }
 
-#section2{
-    padding-left: 0%;
-    margin-bottom: 0%;
-    
+#section2 {
+  padding-left: 0%;
+  margin-bottom: 0%;
 }
+
 .container {
-    border: 1px solid #DDDDDD;
-    position: relative;
-    float: right;
-  }
- 
-  .tag {
-    float: left;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: 1000;
-    background-color: #92AD40;
-    padding: 5px;
-    color: #FFFFFF;
-    font-weight: bold;
-  }
+  border: 1px solid #dddddd;
+  position: relative;
+  float: right;
+}
+.container:hover{
+    height: 263x;
+    width: 430px;
+}
 
-    .section3 {
-        background-color: rgba(139, 97, 38, 0.354);
-        width: 100vw;
-        height: 47vw;
-        text-align: center;
-        font-family:cursive;
-    }
+.tag {
+  float: left;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 9;
+  background-color: #92ad40;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
 
-    .section4 {
-        background-color: rgba(120, 103, 78, 0.354);
-        width: 100vw;
-        height: 47vw;
-        font-family:cursive ;
-        padding-left: 5px;
-    }
+.section3 {
+  background-color: rgba(139, 97, 38, 0.354);
+  width: 100vw;
+  text-align: center;
+  font-family: cursive;
+  margin-bottom: 0%;
+  display: flex;
+  height: min-content;
+}
+#section3 {
+  padding-left: 40%;
+  position: absolute;
+  min-width: min-content;
+}
 
-    .name {
-     background-color: rgba(154, 176, 99, 0.179);
+.section4 {
+  background-color: rgba(120, 103, 78, 0.354);
+  width: 100vw;
+  font-family: cursive;
+  padding-left: 10px;
+  padding-top: 0%;
+  min-width: min-content;
+}
+
+.name {
+  background-color: rgba(154, 176, 99, 0.179);
+  border-radius: 6px;
+}
+
+#section4 {
+  display: flex;
+  margin-top: 0%;
+}
+
+.homeb {
+  border: rgb(38, 129, 58) solid;
+  margin-top: 42%;
+  position: absolute;
+  position: fixed;
+  z-index: 10;
+  margin-left: 94%;
+  background-color: rgb(95, 215, 62);
+  font-family: cursive;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.submit{
+    font-family: cursive;
+    border-radius: 6px;
+    text-align: center;
+    width: 5%;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 768px){
+
+.section1left {
+    width: 50vw;
+    height: 50vh;
+}
+}
+@media only screen and (max-width: 768px){
+    .homeb{
+margin-top: 95%;
+margin-left: 80%;
     }
+}
+@media only screen and (max-width: 768px){
+    #section3{
+        padding-left: 10%;
+
+    }
+}
+.extend{
+    background-color: rgba(120, 103, 78, 0.354);
+    border-radius: 6px;
+    color: black;
+}
