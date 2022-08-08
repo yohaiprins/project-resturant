@@ -1,18 +1,19 @@
 .section1 {
-  background-image: url("https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg");
-  background-color: black;
+  background: url(https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg) , url(https://img.favpng.com/24/21/9/food-icon-thanksgiving-fill-icon-food-icon-png-favpng-3mbb5g1Ubhi7EHPpjELypuBpn.jpg);
   width: 100vw;
   height: 100vh;
   z-index: 50;
   position: relative;
   margin-bottom: 0%;
+ 
 }
+
 .buttens {
   display: flex;
   justify-content: center;
   width: 100vw;
   border-radius: 6px;
-  position: relative;
+  position: absolute;
   padding: 0%;
   margin: 0%;
 }
@@ -28,11 +29,15 @@ span {
   border: rgb(38, 129, 58) solid;
 }
 
+#span1:hover{
+    transform: scale(2);
+}
+
 .yellow{
     background-color: yellow;
     border-radius: 6px;
-    
 }
+
 .yellow:hover {
   background-color: rgb(19, 147, 38);color: rgb(0, 0, 7);
   border-radius: 6px;
@@ -42,14 +47,15 @@ span {
   color: white;
   background-color: rgba(0, 0, 0, 0.445);
   width: 35vw;
-  height: 95%;
+  height: 96%;
   text-align: center;
   min-width: min-content;
 }
 
 .welcome {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 7%;
+    padding-top: 2%;
 }
 
 .order {
@@ -71,15 +77,25 @@ span {
   padding-left: 0%;
   margin-bottom: 0%;
 }
+#img1{
+    width: 400px; 
+    height: 263px;
+}
+
+#img1:hover{
+   width: 405px;
+   transform: scale(1.1);
+ 
+}
 
 .container {
   border: 1px solid #dddddd;
   position: relative;
   float: right;
 }
-.container:hover{
-    height: 263x;
-    width: 430px;
+
+.container:hover .tag{ 
+    opacity: 1; 
 }
 
 .tag {
@@ -92,6 +108,7 @@ span {
   padding: 5px;
   color: #ffffff;
   font-weight: bold;
+  opacity: 0;
 }
 
 .section3 {
@@ -103,24 +120,41 @@ span {
   display: flex;
   height: min-content;
 }
+
 #section3 {
   padding-left: 40%;
   position: absolute;
   min-width: min-content;
 }
 
+#section3:hover{
+    transform: scale(1.1);
+    
+}
+
+
 .section4 {
-  background-color: rgba(120, 103, 78, 0.354);
-  width: 100vw;
+  background: linear-gradient(rgb(139, 97, 38 ,0.354), rgb(220, 214, 209));
+  width: 102%;
   font-family: cursive;
   padding-left: 10px;
   padding-top: 0%;
   min-width: min-content;
 }
 
+  .section4::after {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/rip.svg) bottom center;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 20px;
+    width: 100%;
+  }
+
 .name {
-  background-color: rgba(154, 176, 99, 0.179);
-  border-radius: 6px;
+    background-color: rgba(154, 176, 99, 0.179);
+    border-radius: 6px;
 }
 
 #section4 {
@@ -140,6 +174,7 @@ span {
   border-radius: 6px;
   text-decoration: none;
 }
+
 .submit{
     font-family: cursive;
     border-radius: 6px;
@@ -152,23 +187,132 @@ span {
 
 .section1left {
     width: 50vw;
-    height: 50vh;
+    height: 90vh;
+    
 }
 }
 @media only screen and (max-width: 768px){
-    .homeb{
-margin-top: 95%;
-margin-left: 80%;
-    }
+   
+.homeb{
+        margin-top: 95%;
+        margin-left: 80%;
 }
+}
+
 @media only screen and (max-width: 768px){
     #section3{
         padding-left: 10%;
 
     }
+
 }
-.extend{
-    background-color: rgba(120, 103, 78, 0.354);
-    border-radius: 6px;
-    color: black;
+@media only screen and (max-width: 768px){
+    .section4{
+        text-align: center;
+    }
 }
+
+@media only screen and (max-width: 768px){
+    .submit{
+        margin-left: 44%;
+        
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #img1 {
+        width: 105%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #img2 {
+        width: 105%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #img3 {
+        width: 105%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #img4 {
+        width: 105%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #img5 {
+        width: 105%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #img6 {
+        width: 105%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #img7 {
+        width: 105%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #img8 {
+        width: 105%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #img9 {
+        width: 105%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #section2 {
+      text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #section4 {
+      justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .buttens{
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .section3{
+        width: 102.5vw;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .welcome{
+        padding-top: 0%;
+    }
+}
+
+
+
+
+
