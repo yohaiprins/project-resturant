@@ -1,7 +1,7 @@
 # project retaurant website
 ## my fullstack course first project 
  
- my first website project as part of a fulstack developer course with html/css
+ my first website project as part of a fullstack developer course with html/css
  a website for a restaurant.
 
 ***
